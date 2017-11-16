@@ -29,4 +29,3 @@
 // };
 
 // renderCountApp();
-"use strict";
