@@ -1,5 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Indecision from './components/Indecision';
 
-const template = <p>This is JSX from webpack</p>;
-ReactDOM.render(template, document.getElementById('app'));
+
+ReactDOM.render(<Indecision />, document.getElementById('app'));
+
+// class OldSyntax {
+//     constructor() {
+//         this.name = 'Mike';
+//     }
+// }
+// const oldSyntax = new OldSyntax();
+// console.log(oldSyntax);
+
+// //------
+
+// class NewSyntax {
+//     name = 'Jen'
+// }
+
+// const newSyntax = new NewSyntax();
+// console.log(newSyntax);
