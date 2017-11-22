@@ -26,7 +26,7 @@ test('should generate sorting action object by date', () => {
 test('should generate sorting action object by date', () => {
     const action = sortByAmount();
     expect(action).toEqual({
-        type: 'SORT_BY_AMOUNT'
+        type: 'SORT_BY_AMOUNT' 
     });
 });
 
